@@ -4,7 +4,7 @@ Codes introduced in the paper:
 
 * Inpainting for Saturation Artifacts in Optical Coherence Tomography Using Dictionary-Based Sparse Representation. 
 
-* This paper introduces a inpainting method for OCT image using sparse representation. If you 
+* This paper introduces a inpainting method for OCT image using sparse representation.
 
 
 ## Introduction
@@ -21,9 +21,9 @@ In this paper, we propose a novel method to localize and correct saturation arti
 
 ## Quick Start: 
 
-### 'detection' folder: 
+### 'detection': 
 * OCT_artifact_detection.m : prepare the .oct file and the get the actual spectrum upper limit from .oct data. To get this, you need to change the 'OCTFileGetRawData.m', comment the line #92-94.
-###'inpainting' folder:
+### 'inpainting':
 * dictionary_training.m: train a dictionary, prepare training dataset of high resolution high SNR OCT images
 * Inpainting_aVolume.m: inpainting the oct images masked with saturation artifacts.
 
